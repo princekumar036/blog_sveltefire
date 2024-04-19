@@ -1,0 +1,14 @@
+
+div.grid article h1 {
+    font-size: smaller;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.grid article body {
+    font-size: small;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

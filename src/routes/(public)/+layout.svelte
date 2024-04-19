@@ -4,7 +4,7 @@
   import '@picocss/pico'
   import '../../app.css'
   import SiteTitle from "$lib/components/SiteTitle.svelte";
-    import SocialIcons from "$lib/components/SocialIcons.svelte";
+  import SocialIcons from "$lib/components/SocialIcons.svelte";
 
   
 </script>
@@ -23,11 +23,9 @@
   </nav>
 </header>
   
-<main class="container">
-  <FirebaseApp {auth} {firestore}>
-    <slot />
-  </FirebaseApp>
-</main>
+<FirebaseApp {auth} {firestore}>
+  <slot />
+</FirebaseApp>
 
 <footer>
   <div class="container">
